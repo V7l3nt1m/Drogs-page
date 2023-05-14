@@ -1,0 +1,295 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  
+  
+}
+body{
+  
+  background-color: black;  
+}
+a{
+  color: #5900ff;
+  font-style: italic;
+}
+a:active{
+  color: red;
+}
+
+#cabecalho{
+    padding: 1%;
+    background-color: #5900ff;
+   left: 0%;
+   right: 0%;
+   top: 0%;
+   position: static;
+}
+#C_img{
+    margin-left: 13%;
+    margin-top: 0%;
+    
+}
+
+
+.Nav{
+    float: right;
+    margin-right: 20px;
+}
+.Nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+.Nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 4px;
+}
+a.active, a.active1, a.active2, a.active:hover{
+background: #656565;
+}
+.corpo {
+  margin-left: 280px;
+  margin-right: 280px;
+  margin-top: 70px;
+  box-shadow: 0 0.8em 4em 20px #5900ff;
+  background-color: white;
+
+}
+
+.p{
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #202020;
+}
+h1, h2{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #5900ff;
+}
+p, li{
+  color: #d9d9d9;
+  font-size: +4;
+
+}
+#img_m1,#img_m2,#img_m3{
+  border-radius: 40px;
+}
+
+#imagem_marquee1{
+  width: 430px;
+  height: 270px;
+  margin-left: 340px;
+  margin-top: -280px;
+  border-radius: 40px;
+}
+#imagem_2{
+  width: 430px;
+  height: 270px;
+  margin-left: 370px;
+  margin-top: -350px;
+  
+}
+#imgS{
+  width: 400px;
+  height: 270px;
+  margin-left: 320px;
+  margin-top: -240px;
+  border-radius: 40px;
+}
+#imgM1,#imgM2,#imgM3{
+  width: 430px;
+  height: 270px;
+  border-radius: 40px;
+  
+}
+#imgM{
+  width: 400px;
+  height: 70px;
+  margin-left: 330px;
+  margin-top: -200px;
+  border-radius: 40px;
+  
+}
+
+.Co{
+  margin-left: 190px;
+  margin-right: 200px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  box-shadow: 0 0.8em 4em 20px #5900ff;
+  background-color: white;
+}
+#video1,#video2,#video3{
+  width: 400px;
+  height: 200px;
+  margin-left: 40px;
+  border-radius: 40px;
+  background-color: black;
+}
+
+footer{
+  
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background:  #5900ff;
+}
+.contentor-principal{
+  color: #d9d9d9;
+}
+.contentor-principal{
+  display: flex;
+}
+.contentor-principal .caixa{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+
+.caixa h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.caixa .contentor{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.caixa .contentor:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.caixa .contentor:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background:  white;
+  top: -10px;
+}
+.esquerda .contentor p{
+  text-align: justify;
+}
+.esquerda .contentor .social{
+  margin: 20px 0 0 0;
+}
+.esquerda .contentor .social a{
+  padding: 0 2px;
+}
+.esquerda .contentor .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.esquerda .contentor p.social a{
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: -20px;
+  transition: 0.3s;
+}
+.centro .contentor{
+  font-size: 18px;
+  line-height: 20px;
+  text-align: justify;
+}
+.centro .contentor p.texto a:hover{
+  background-color: #d9d9d9;
+}
+
+.center .contentor .texto{
+  font-size: 18px;
+  font-weight: 500px;
+  padding-left: 10px;
+}
+
+.centro .contentor .telefone{
+  margin: 15px 0;
+}
+
+.direita form .texto{
+  font-size: 1.0625rem;
+  margin-bottom: 1px;
+  color: #d9d9d9;
+}
+.direita form .msg{
+  margin-top: 10px;
+}
+.direita form input, .direita form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: white;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.direita form input:focus,
+.direita form textarea:focus{
+  outline-color: #3498db;
+}
+.direita form input{
+  height: 35px;
+}
+.direita form .btn{
+  margin-top: 10px;
+}
+.direita form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background:  #151515;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+  
+}
+.direita form .btn button:hover{
+  background: #000;
+}
+.baixo center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.baixo center span{
+  color: #d9d9d9;
+}
+.baixo center a{
+  color: #5900ff;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .contentor-principal{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .contentor-principal .caixa{
+    margin: 5px 0;
+  }
+}
+

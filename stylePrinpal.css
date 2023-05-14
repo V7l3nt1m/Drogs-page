@@ -1,0 +1,91 @@
+*{
+  text-decoration: none;
+}
+body{
+ color: white;
+ background-color: black;
+ font-family: sans-serif;
+ 
+
+}
+.BV{
+  font-size: +2;
+  color: #5900ff;
+  
+}
+ .img_descricao{
+  padding: 110px 191px;
+  
+
+  
+}
+.img{
+  height: 90px;
+  margin: -26px;
+  padding-left: 13px;
+}
+
+.p_img{
+  font-size: 26px;
+  width: 500px;
+  line-height: 34px; 
+  
+  
+}
+.formulario{
+  text-align: center;
+  float: right;
+  box-shadow: 0 0.8em 4em 20px #5900ff;
+  background-color: #fff;
+  border-radius: 8px;
+  font-size: 12px;
+    padding-bottom: 24px;
+    padding-top: 10px;
+   margin-right: 150px;
+   width: 396px;
+   margin-top: -370px;
+}
+input#nome, input#password, input#Pesquisa{
+  width: 370px;
+  height: 22px;
+  border: 1px solid #dddfe2;
+  padding: 11px 0;
+  border-radius: 6px;
+  font-size: 14px;
+  text-indent: 3%;
+  
+}
+ input#btnEnviar{
+  background-color: #5900ff;
+  padding: 12px 0;
+  text-indent: 3%;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 302px;
+  color: #fff;
+  cursor: pointer;
+ }
+ .rodape{
+   background-color: #5900ff ;
+   text-align: center;
+   padding: 1px;
+   left: 0%;
+   right: 0%;
+   position: fixed;
+   bottom: 0px;
+ }
+ .p_rodape,a{
+   color: #d9d9d9;
+   font-size: 19px;
+  font-weight: 600;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  }
+  .letras{
+    margin-bottom: 1%;
+  }
+ 
+ 

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+   <html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Searcher</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="stylePrinpal.css">
+</head>
+
+<body>
+
+   <div class="BV">
+     <h1 style="text-shadow: 0 0 0.2em #5900ff, 0 0 0.2em #5900ff,
+     0 0 0.2em #5900ff; color: white;">
+      <marquee loop="-1" truespeed="50" behavior="alternate">Bem vindo(a) ao meu site, Espero que Goste!&#x1F601&#x1F44D</marquee>
+     </h1>
+   </div>
+         
+        <div class="img_descricao">
+          <p id="para">
+            <img src="imagens/logoSEARCHER.png" alt="Searcher" class="img">
+              <p class="p_img" style="text-shadow: 0 0 0.2em #5900ff, 0 0 0.2em #5900ff,
+              0 0 0.2em #5900ff">O Searcher ajuda-te a procurar conteúdo, educativo e informátivo para aumentar o conhecimento.</p>
+          </p>
+        </div>
+
+        <div class="formulario">
+          
+
+          
+            <div class="tudo">
+              <div class="nome">
+                <input id="nome" type="text" name="nome" placeholder="Nome de Usuario" required="required" pattern="(?=^.{2,}$)[a-zA-Z]+" title="No minimo 2 caracteres e apenas letras maisculas e/ou minusculas"></div><br>
+
+              <div class="password">
+                <input id="password" type="password" name="password" placeholder="Palavra-passe" required="required" pattern="(?=^.{8,}$)[a-zA-Z0-9]+" title="No minino 8 caracteres entre a e Z ou numeros"></div><br>
+              
+              <div class="Pesquisa">
+                <input id="Pesquisa" type="text" name="Pesquisa" placeholder="Digite o tema" title="Meu tema social"></div><br>
+              
+              <div class="btnEnviar">
+                <input id="btnEnviar" onclick = "ir()" type="submit" name="enviar" value= "Fazer a Pesquisa" >
+              </div>
+            </div>
+            
+           
+           
+        </div>
+                               
+                                  
+
+                            <div class="rodape">
+                                             <div class="letras">
+                                               <p class="p_rodape">Searcher &copy Copyright 2021 by: Valentim Prado</p>
+                                                                                        <a href="https://www.facebook.com/valentim.prado.5/">Facebook |</a>
+                                                                                       <a href="https://twitter.com/valenti36667817">Twitter</a>
+                                             </div>
+                            </div>
+                        </div>
+         </div>
+
+         <script>
+            function ir() {
+              var c = window.document.getElementById("Pesquisa").value
+               if ( c == "Drogas" || c == "DROGAS" || c == "drogas" || c == "As drogas" || c == "as drogas") {
+                    window.location.href = "Drogas.html"
+               }
+               else if (c == "Haxixe" || c == "haxixe" || c == "HAXIXE") {
+                window.location.href = "haxixe.html"
+               }
+               else if (c == "ANFETAMINA" || c == "anfetamina" || c == "Anfetamina") {
+                window.location.href = "anfetamina.html"
+            }
+            else if (c == "Maconha" || c == "MACONHA" || c == "maconha") {
+                window.location.href = "maconha.html"
+               }
+               else if (c == "crack" || c == "CRACK" || c == "Crack") {
+                window.location.href = "crack.html"
+               }
+               else if (c == "ecstasy" || c == "ECSTASY" || c == "Ecstasy") {
+                window.location.href = "ecstasy.html"
+               }
+               else if (c == "COCAINA" || c == "Cocaina" || c == "Cocaina") {
+                window.location.href = "cocaina.html"
+               }
+             }
+
+         </script>
+    
+</body>
+</html>
